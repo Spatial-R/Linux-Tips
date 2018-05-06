@@ -35,7 +35,11 @@ R console: install.packages("devtools")
 
 
 ### Terminal
-sudo apt-get install nautilus-open-terminal  
+sudo apt-get install nautilus-open-terminal 
+
+### MPV
+sudo add-apt-repository ppa:mc3man/mpv-tests  
+sudo apt update && sudo apt install mpv
 
 
 ### Install Jabref
