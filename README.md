@@ -41,6 +41,8 @@ sudo apt-get install nautilus-open-terminal
 sudo add-apt-repository ppa:mc3man/mpv-tests  
 sudo apt update && sudo apt install mpv
 
+### POMP package
+sudo apt-get install r-cran-nloptr 
 
 ### Install Jabref
 sudo add-apt-repository ppa:ari-tczew/jabref  
