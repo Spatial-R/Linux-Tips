@@ -49,4 +49,11 @@ sudo add-apt-repository ppa:ari-tczew/jabref
 sudo apt-get update  
 sudo apt-get install jabref  
 
+### Install WPS
+sudo apt-get remove libreoffice
 
+cd && wget -O wps-office.deb http://kdl1.cache.wps.com/ksodl/download/linux/a21//wps-office_10.1.0.5707~a21_amd64.deb  
+sudo dpkg -i wps-office.deb  
+sudo apt-get -f install && rm wps-office.deb  
+wget -O web-office-fonts.deb http://kdl.cc.ksosoft.com/wps-community/download/fonts/wps-office-fonts_1.0_all.deb  
+sudo dpkg -i web-office-fonts.deb  
