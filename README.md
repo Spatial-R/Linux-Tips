@@ -16,8 +16,8 @@ sudo gdebi rstudio-1.1.447-amd64.deb
 rm *.deb
 
 ### Update the Ubuntu system from the version 14.04 to 16.04
-[https://www.sysgeek.cn/upgrade-ubuntu-16-04-lts/](https://www.sysgeek.cn/upgrade-ubuntu-16-04-lts/)
-
+[https://www.sysgeek.cn/upgrade-ubuntu-16-04-lts/](https://www.sysgeek.cn/upgrade-ubuntu-16-04-lts/)  
+[https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-16-04-lts](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-16-04-lts)
 ### install cario
 sudo apt-get install libcairo2-dev  
 sudo apt-get install libxt-dev  
