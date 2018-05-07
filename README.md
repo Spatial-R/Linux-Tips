@@ -1,7 +1,7 @@
 # Linux-Tips
 
 ### R and Rstudio
-sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/" >> /etc/apt/sources.list'  
+sudo sh -c 'echo "deb https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/linux/ubuntu trusty/" >> /etc/apt/sources.list'  
 gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9  
 gpg -a --export E084DAB9 | sudo apt-key add -  
 sudo apt-get update   
@@ -35,7 +35,8 @@ R console: install.packages("devtools")
 
 
 ### Terminal
-sudo apt-get install nautilus-open-terminal 
+sudo apt-get update  
+sudo apt-get install nautilus  
 
 ### MPV
 sudo add-apt-repository ppa:mc3man/mpv-tests  
