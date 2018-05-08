@@ -38,6 +38,9 @@ R console: install.packages("devtools")
 sudo apt-get update  
 sudo apt-get install nautilus  
 
+### cairo-dock
+sudo apt-get install cairo-dock
+
 ### MPV
 sudo add-apt-repository ppa:mc3man/mpv-tests  
 sudo apt update && sudo apt install mpv
