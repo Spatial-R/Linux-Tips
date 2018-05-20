@@ -38,6 +38,9 @@ R console: install.packages("devtools")
 sudo apt-get update  
 sudo apt-get install nautilus  
 
+### Sougou
+【https://blog.csdn.net/qq_21792169/article/details/53152700】（https://blog.csdn.net/qq_21792169/article/details/53152700）
+
 ### cairo-dock
 sudo apt-get install cairo-dock
 
