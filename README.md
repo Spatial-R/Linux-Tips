@@ -64,3 +64,10 @@ sudo dpkg -i wps-office.deb
 sudo apt-get -f install && rm wps-office.deb  
 wget -O web-office-fonts.deb http://kdl.cc.ksosoft.com/wps-community/download/fonts/wps-office-fonts_1.0_all.deb  
 sudo dpkg -i web-office-fonts.deb  
+
+## rJava
+
+[https://askubuntu.com/questions/858961/install-rjava-on-ubuntu-failed](https://askubuntu.com/questions/858961/install-rjava-on-ubuntu-failed)
+
+ sudo R CMD javareconf \ JAVA_HOME=${JAVA_HOME} \ JAVA=${JAVA_HOME}/bin/java \ JAVAC=${JAVA_HOME}/bin/javac \ JAVAH=${JAVA_HOME}/bin/javah \ JAR=${JAVA_HOME}/bin/jar \ JAVA_LD_LIBRARY_PATH=${JAVA_HOME}/jre/lib/amd64 \ JAVA_CPPFLAGS="-I${JAVA_HOME}/include -I${JAVA_HOME}/include/linux"
+
