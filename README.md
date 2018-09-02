@@ -1,5 +1,10 @@
 # Linux-Tips
 
+####source
+
+(https://blog.csdn.net/xiangxianghehe/article/details/80112149)[https://blog.csdn.net/xiangxianghehe/article/details/80112149]
+
+
 ### R and Rstudio
 sudo sh -c 'echo "deb https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/linux/ubuntu trusty/" >> /etc/apt/sources.list'  
 gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9  
