@@ -12,8 +12,8 @@ sudo apt-get install r-base
 sudo wget http://download1.rstudio.org/rstudio-1.1.447-amd64.deb  
 sudo apt-get install gdebi-core  
 sudo apt-get install libapparmor1  
-sudo gdebi rstudio-1.1.447-amd64.deb 
-rm *.deb
+sudo gdebi rstudio-1.1.447-amd64.deb  
+rm *.deb   
 [https://askubuntu.com/questions/864260/issue-with-dependency-of-r-studio-installation-in-ubuntu-16-10](https://askubuntu.com/questions/864260/issue-with-dependency-of-r-studio-installation-in-ubuntu-16-10)
 
 
