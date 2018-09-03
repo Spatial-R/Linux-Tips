@@ -16,7 +16,7 @@ sudo apt-get install r-base
 
 #### Install R package
 [https://www.r-bloggers.com/installing-r-packages/](https://www.r-bloggers.com/installing-r-packages/)
-
+[http://hoyoung.net/2015/12/06/R%E8%BD%AF%E4%BB%B6linux%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%AE%BE%E7%BD%AEcran%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/](http://hoyoung.net/2015/12/06/R%E8%BD%AF%E4%BB%B6linux%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%AE%BE%E7%BD%AEcran%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F/)
 
 sudo wget http://download1.rstudio.org/rstudio-1.1.447-amd64.deb  
 sudo apt-get install gdebi-core  
