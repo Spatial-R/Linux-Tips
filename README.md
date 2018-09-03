@@ -12,7 +12,11 @@ gpg -a --export E084DAB9 | sudo apt-key add -
 sudo apt-get update   
 sudo apt-get upgrade  
 sudo apt-get install r-base
-[https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04-quickstart](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04-quickstart)
+[https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04-quickstart](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-18-04-quickstart)   
+
+#### Install R package
+[https://www.r-bloggers.com/installing-r-packages/](https://www.r-bloggers.com/installing-r-packages/)
+
 
 sudo wget http://download1.rstudio.org/rstudio-1.1.447-amd64.deb  
 sudo apt-get install gdebi-core  
