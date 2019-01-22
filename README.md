@@ -25,6 +25,8 @@ sudo gdebi rstudio-1.1.447-amd64.deb
 rm *.deb   
 [https://askubuntu.com/questions/864260/issue-with-dependency-of-r-studio-installation-in-ubuntu-16-10](https://askubuntu.com/questions/864260/issue-with-dependency-of-r-studio-installation-in-ubuntu-16-10)
 
+sudo apt install r-base-core
+
 
 ### Update the Ubuntu system from the version 14.04 to 16.04
 [https://www.sysgeek.cn/upgrade-ubuntu-16-04-lts/](https://www.sysgeek.cn/upgrade-ubuntu-16-04-lts/)  
